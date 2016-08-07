@@ -6,7 +6,9 @@
 void test_multiplication() {
   Dollar five(5);
   five.times(2);
-  assert(five.amount == 10);
+  assert(five.amount_ == 10);
+  std::cout << __FUNCTION__ << ": passed!"
+    << std::endl;
 }
 
 int main() {

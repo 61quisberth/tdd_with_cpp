@@ -7,7 +7,7 @@ class Dollar {
 
     void times(int multiplier);
 
-    int amount;
+    int amount_;
   private:
 };
 

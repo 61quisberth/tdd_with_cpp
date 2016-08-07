@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5.2)
+cmake_minimum_required(VERSION 3.0.2)
 project(tdd_cpp)
 
 # include a dir w/ another CMakeLists.txt
